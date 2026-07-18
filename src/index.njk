@@ -1,0 +1,27 @@
+---
+permalink: /
+title: Home
+layout: base.njk
+description: A living, community-contributed archive of Yoruba proverbs (òwe).
+---
+<h1>Òwe Yòòbá</h1>
+<p class="tagline">A living archive of Yoruba proverbs (òwe).</p>
+
+{% set featured = owe | selectattr("featured") %}
+{% if featured | length %}
+  <h2>Starter set</h2>
+  {% for entry in featured %}
+    <article class="owe-card">
+      <p class="owe-yoruba">{{ entry.text_yoruba }}</p>
+      <p class="owe-meaning">{{ entry.figurative_meaning }}</p>
+      <p class="tag-list">
+        {% for t in entry.themes %}{{ t }}{% if not loop.last %}, {% endif %}{% endfor %}
+        ·
+        {% for s in entry.situations %}{{ s }}{% if not loop.last %}, {% endif %}{% endfor %}
+      </p>
+      <a href="/owe/{{ entry.slug }}/">Read more</a>
+    </article>
+  {% endfor %}
+{% else %}
+  <p>No entries published yet. Seed compilation is underway.</p>
+{% endif %}

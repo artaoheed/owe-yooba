@@ -1,0 +1,40 @@
+- slug: effort
+  name_english: Effort
+  name_yoruba: Ìsapá
+  description: Proverbs about work, diligence, and persistence.
+- slug: caution
+  name_english: Caution
+  name_yoruba: Ìṣọ́ra
+  description: Proverbs warning against carelessness or haste.
+- slug: patience
+  name_english: Patience
+  name_yoruba: Sùúrù
+  description: Proverbs about waiting, restraint, and endurance.
+- slug: money
+  name_english: Money
+  name_yoruba: Owó
+  description: Proverbs about wealth, poverty, and resourcefulness.
+- slug: family
+  name_english: Family
+  name_yoruba: Ẹbí
+  description: Proverbs about kinship, parenting, and household life.
+- slug: wisdom
+  name_english: Wisdom
+  name_yoruba: Ọgbọ́n
+  description: Proverbs about good judgment and learning from experience.
+- slug: power
+  name_english: Power
+  name_yoruba: Agbára
+  description: Proverbs about authority, leadership, and its limits.
+- slug: honesty
+  name_english: Honesty
+  name_yoruba: Òtítọ́
+  description: Proverbs about truthfulness and its consequences.
+- slug: community
+  name_english: Community
+  name_yoruba: Àdúgbò
+  description: Proverbs about cooperation, belonging, and collective life.
+- slug: destiny
+  name_english: Destiny
+  name_yoruba: Àyànmọ́
+  description: Proverbs about fate, fortune, and one's allotted path.

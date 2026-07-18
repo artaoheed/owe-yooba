@@ -1,0 +1,18 @@
+# One file per entry: data/owe/<slug>.yaml (filename must equal the slug)
+slug: ""                    # lowercase-kebab, ascii only, unique
+text_yoruba: ""              # full diacritics, NFC normalised
+text_phonetic: ""            # optional, romanised
+literal_translation: ""      # word-for-word English, your own wording
+figurative_meaning: ""       # what it actually means, your own wording
+usage_context: ""            # when and how it is used
+usage_marker: current        # current | archaic | formal | regional
+dialect: standard            # standard | oyo | ijebu | ekiti | ondo | other
+themes: []                   # slugs from data/themes.yaml, at least one
+situations: []                # slugs from data/situations.yaml, at least one
+source_attribution: ""       # e.g. "Contributor: family elder, Ibadan, 2026"
+                              # or "Wikiquote Yoruba (text); own translation"
+see_also: ""                 # optional scholarly cross-ref, e.g. "Delano 1966, no. 214"
+featured: false               # true = starter set on the landing page
+status: draft                 # draft | published
+restricted: false             # true = excluded from the public build
+added: 2026-07-18

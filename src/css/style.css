@@ -1,0 +1,93 @@
+:root {
+  --fg: #1a1a1a;
+  --bg: #fdfcf9;
+  --muted: #6b6b6b;
+  --accent: #8a3324;
+  --border: #e4ded2;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.site-nav a {
+  margin-left: 1.5rem;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.site-nav a:hover { color: var(--accent); }
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.tagline {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.owe-card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.owe-yoruba {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem;
+}
+
+.owe-meaning {
+  margin: 0.25rem 0;
+}
+
+.tag-list {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.site-footer {
+  max-width: 760px;
+  margin: 3rem auto 0;
+  padding: 1.5rem 2rem 3rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.footer-links a {
+  color: var(--muted);
+  margin-right: 1rem;
+}
+
+.corpus-counter {
+  font-weight: bold;
+  color: var(--accent);
+}

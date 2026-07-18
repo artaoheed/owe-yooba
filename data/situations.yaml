@@ -1,0 +1,32 @@
+- slug: encourage
+  name_english: Encourage
+  name_yoruba: Gbà Ní Ìyànjú
+  description: Used to motivate someone or affirm their effort.
+- slug: warn
+  name_english: Warn
+  name_yoruba: Kìlọ̀
+  description: Used to caution against a likely bad outcome.
+- slug: advise
+  name_english: Advise
+  name_yoruba: Gbani Nímọ̀ràn
+  description: Used to offer practical guidance for a decision.
+- slug: comfort
+  name_english: Comfort
+  name_yoruba: Tù Nínú
+  description: Used to console someone facing hardship or loss.
+- slug: teach-humility
+  name_english: Teach humility
+  name_yoruba: Kọ́ Ní Ìrẹ̀lẹ̀
+  description: Used to check pride or overconfidence.
+- slug: settle-dispute
+  name_english: Settle a dispute
+  name_yoruba: Yanjú Ìjà
+  description: Used by elders or mediators to resolve conflict.
+- slug: praise
+  name_english: Praise
+  name_yoruba: Yìn
+  description: Used to commend good character or achievement.
+- slug: mourn
+  name_english: Mourn
+  name_yoruba: Ṣọ̀fọ̀
+  description: Used in contexts of grief or loss.

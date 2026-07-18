@@ -1,0 +1,17 @@
+{
+  "name": "owe-yooba",
+  "version": "0.1.0",
+  "description": "A living, community-contributed archive of Yoruba proverbs (owe).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "validate": "node scripts/validate.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}

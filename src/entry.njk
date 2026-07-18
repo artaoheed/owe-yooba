@@ -1,0 +1,40 @@
+---
+pagination:
+  data: owe
+  size: 1
+  alias: entry
+permalink: "/owe/{{ entry.slug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ entry.slug }}"
+  description: "{{ entry.figurative_meaning }}"
+---
+<article>
+  <p class="owe-yoruba">{{ entry.text_yoruba }}</p>
+  {% if entry.text_phonetic %}<p><em>{{ entry.text_phonetic }}</em></p>{% endif %}
+
+  <h2>Literal translation</h2>
+  <p>{{ entry.literal_translation }}</p>
+
+  <h2>Figurative meaning</h2>
+  <p>{{ entry.figurative_meaning }}</p>
+
+  <h2>Usage</h2>
+  <p>{{ entry.usage_context }}</p>
+  <p class="tag-list">
+    {{ entry.usage_marker }} · {{ entry.dialect }} dialect
+  </p>
+
+  <h2>Themes &amp; situations</h2>
+  <p class="tag-list">
+    {% for t in entry.themes %}{{ t }}{% if not loop.last %}, {% endif %}{% endfor %}
+    ·
+    {% for s in entry.situations %}{{ s }}{% if not loop.last %}, {% endif %}{% endfor %}
+  </p>
+
+  <h2>Source</h2>
+  <p>{{ entry.source_attribution }}</p>
+  {% if entry.see_also %}<p>See also: {{ entry.see_also }}</p>{% endif %}
+
+  <p><a href="mailto:hello@oweyoruba.org?subject=[correction]%20{{ entry.slug }}">Suggest a correction</a></p>
+</article>
